@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <dialog class="first-modal">
+            <span class="dialog-title">Is this the book you were looking for?</span>
+            <img class="temp-cover-image">
+            <div class="infogrid">
+                <span class="titlelabel ig1">Title: </span> <span class="googletitle ig2"></span>
+                <span class="authorlabel ig1">Author: </span> <span class="googleauthor ig2"></span>
+                <span class="pageslabel ig1">Pages: </span> <span class="googlepages ig2"></span>
+            </div>
+            <div class="buttongrid">
+                <button class="yes-button">Yes</button>
+                <button class="no-button">No</button>
+            </div>
+        </dialog>
+
+        <dialog class="second-modal">
+                 <span class="dialog-title">Do any of the following match with your book?</span>
+                 <div class="search-results-grid">
+                    
+                <!-- <div class="search-result"><span id="brt0" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt1" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt2" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt3" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt4" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt5" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt6" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt7" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt8" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div>
+                <div class="search-result"><span id="brt9" class="book-result-title">Title</span><span class="book-result-author">Author</span><img class="book-result-image" src="assets/alpha-x-box-outline.svg" alt=""></div> -->
+            </div>
+        </dialog>
+
+        <div class="sidebar">
+            <div class="sidebarholder">
+                <div class="addbookheading"><img class="im4" src="assets/book-open-variant-outline.svg" alt=""><h1>New Book</h1></div>
+
+                <div class="titleclass">
+                    <div class="titletext title">What is the title of the book? </div>
+                    <div class="flexinputrow">
+                        <div class="inputimage"><img class="im1" src="assets/book-alphabet.svg" alt="Book Title Symbol"></div>
+                        <div class="titleinput"><input class="i1" type="text" name="booktitle" id="booktitle"></div>
+                        <div class="warning-message"><span class="required-field">Required Field</span></div>
+                    </div>
+                </div>
+                
+                <div class="titleclass">
+                    <div class="authortext title">Who is the author of the book? </div>
+                    <div class="flexinputrow">
+                        <div class="inputimage"><img class="im2" src="assets/book-account.svg" alt=""></div>
+                        <div class="authorinput"><input class="i1 iopt" type="text" name="authorname" id="authorname" placeholder="Optional"></div>
+                    </div>
+                </div>
+
+                <div class="titleclass">
+                    <div class="pagestext title">How many pages in the book? </div>
+                    <div class="flexinputrow">
+                        <div class="inputimage"><img class="im3" src="assets/book-open-page-variant-outline.svg" alt="pages of book"></div>
+                        <div class="pagesinput"><input class="i1 iopt" type="number" name="pages" id="pages" placeholder="Optional"></div>
+                    </div>
+                </div>
+
+                <div class="titleclass">
+                    <div class="readtext title">Read? </div>
+                    <div class="readinput"><input class="i2" type="checkbox" name="readcheckbox" id="readcheckbox"></div>
+                </div>
+
+                <div class="titleclass"><button type="submit" class="add-book-button">ADD BOOK</button></div>
+
+            </div>
+        </div>
+        <div class="header">
+            <img src="assets/bookshelf.svg" alt="My Online Library Logo">
+            <span>MyOnlineLibrary</span>
+        </div>
+        <div class="mainsection">
+
+
+<!--             
+            <div class="bookcard">
+                <div class="bookinfosection">
+                    <div class="bookcardtitle">The Rise and Fall of Ancient Egypt</div>
+                    <div class="bookcardauthor">Tom Wilkonson</div>
+                    <div class="bookcardpages">496 pages</div>
+                    <div class="bookcardread">Read? <input type="checkbox" name="bookcardread" id="bookcardread"></div>
+                </div>
+                <div class="bookimage"><img src="assets/716kDDFuFUL._AC_UF1000,1000_QL80_.jpg" alt="Ancient Egypt Book Cover"></div>
+            </div>
+             -->
+
+
+        </div>
+    </div>
+</body>
+
+</html>
